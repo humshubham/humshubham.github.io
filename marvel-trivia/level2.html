@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body  {
+      background-image: url("assets/img/infinitywar.png");
+
+  background-color: #000000;
+   background-repeat: no-repeat;
+}
+h1 {
+  
+  color: #00e2ff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+p{
+	color:#00e2ff; 
+    font-size: 20px;
+	text-align:left; 
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #EAEDED;
+}
+.frm{
+ 	float: right;
+ 	font-weight: 100%;
+ 	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #EAEDED;
+ }
+
+div.slide-right {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-right p {
+  animation: slide-left 10s;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+</style>
+        <link rel="stylesheet" href="assets/page.css">
+</head>
+<body>
+
+
+<h1 style="text-align:right"><center><b><em>LEVEL 2</em></b></center></h1>
+
+<P><b>1)  I can make the best avenger regret his existence, my past bought me sorrows through a devil, which makes everyone’s life horror. I have the ability to look through you and kill you. .</b></P>
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q1"> <button class="glow" onclick="verify1()">verify</button><span style="color: green;" id="s1g"></span><span style="color: red;" id="s1r"></span>
+</div><br><br>
+    <p style="text-align:right"><b>2) I used to call an animal my uncle, killing people during missions weren’t my regrets, after joining the agency . I am a venomous Arachnids</b>
+</p>
+    <div class="frm">
+    <input type="text"  class="glowing-border" id="q2"> <button class="glow" onclick="verify2()">verify</button><span style="color: green;" id="s2g"></span><span style="color: red;" id="s2r"></span>
+</div><br><br>
+<P style="text-align:right;"><b>3)Master—as its more us! none limb a the We shall take serve destroyed! never serve place! shall shall but off and the Cut two world soon be We.......Rewrite the jumbled sentence</b></P>
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q3"> <button class="glow" onclick="verify3()">verify</button><span style="color: green;" id="s3g"></span><span style="color: red;" id="s3r"></span>
+</div><br><br>
+<P style="text-align:right;"><b>4. Guess the movie from which this scene is from?</b></P>
+    <img src="assets/img/pic.jpg" alt="guess-movie">
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q4"> <button class="glow" onclick="verify4()">verify</button><span style="color: green;" id="s4g"></span><span style="color: red;" id="s4r"></span>
+</div><br><br>
+<h2 style=" text-align:right">5. Rearrange the word</h2> 
+	<ul style="color:#a8faa2;  text-align: right; font-size: 25px;">Trek Are Prep</ul>
+	<div class="frm">
+    <input type="text"  class="glowing-border" id="q5"> <button class="glow" onclick="verify5()">verify</button><span style="color: green;" id="s5g"></span><span style="color: red;" id="s5r"></span>
+</div><br><br>
+
+<ul style="text-align: right; font-size: 25px; color:#a8faa2;">A Ceramic Pinata</ul>
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q6"> <button class="glow" onclick="verify6()">verify</button><span style="color: green;" id="s6g"></span><span style="color: red;" id="s6r"></span>
+</div><br><br>
+
+<ul style="text-align: right; font-size: 25px; color:#a8faa2;">Dancers Grotto</ul>
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q7"> <button class="glow" onclick="verify7()">verify</button><span style="color: green;" id="s7g"></span><span style="color: red;" id="s7r"></span>
+</div><br><br>
+
+<P style=" text-align:right"> <b>6.	I was regarded as the most furious person in the galaxy and was trained by the most hated villain. My sword could kill gods and My rage cost my love’s life</b></p>
+                     
+<br><br><br><br>
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q8"><button class="glow" onclick="verify8()">verify</button><span style="color: green;" id="s8g"></span><span style="color: red;" id="s8r"></span>
+</div><br><br>
+
+<P style=" text-align:right"><b>7. You wouldn't shake his hand ,he has fantastic hearing ,as most canine  beings do.</b><b>so you'll see him where you go to find something to listen to </b> </P>
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q9"> <button class="glow" onclick="verify9()">verify</button><span style="color: green;" id="s9g"></span><span style="color: red;" id="s9r"></span>
+</div><br><br>
+<P style=" text-align:right"><b>8. His web slinging skills help in many epic fights. He has another name,as most superheores do, his powers after a bite will lead you to a clue </b></P>
+<div class="frm">
+    <input type="text"  class="glowing-border" id="q10"> <button class="glow" onclick="verify10()">verify</button><span style="color: green;" id="s10g"></span><span style="color: red;" id="s10r"></span>
+</div><br><br>
+
+
+
+<a href="level3.html" style="background-color: black; color: white;">Go To next page</a>
+
+
+
+</body>
+	<footer>
+		<script>
+        function verify1(){
+            var inp = document.getElementById("q1").value;
+            var sp1 = document.getElementById("s1g");
+            var sp2 = document.getElementById("s1r");
+          
+            if (inp=="ghost rider"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else{
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify2(){
+            var inp = document.getElementById("q2").value;
+            var sp1 = document.getElementById("s2g");
+            var sp2 = document.getElementById("s2r");
+          
+            if (inp=="black widow"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify3(){
+            var inp = document.getElementById("q3").value;
+            var sp1 = document.getElementById("s3g");
+            var sp2 = document.getElementById("s3r");
+          
+            if (inp=="we shall never be destroyed! cut off a limb and two more shall take its place! we serve none but the master—as the world shall soon serve us"){
+                sp2.textContent="";
+                sp1.textContent="Correct";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify4(){
+            var inp = document.getElementById("q4").value;
+            var sp1 = document.getElementById("s4g");
+            var sp2 = document.getElementById("s4r");
+          
+            if (inp=="captain america first avenger"){
+                sp2.textContent="";
+                sp1.textContent="Correct";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify5(){
+            var inp = document.getElementById("q5").value;
+            var sp1 = document.getElementById("s5g");
+            var sp2 = document.getElementById("s5r");
+          
+            if (inp=="peter parker"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify6(){
+            var inp = document.getElementById("q6").value;
+            var sp1 = document.getElementById("s6g");
+            var sp2 = document.getElementById("s6r");
+          
+            if (inp=="captain america"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify7(){
+            var inp = document.getElementById("q7").value;
+            var sp1 = document.getElementById("s7g");
+            var sp2 = document.getElementById("s7r");
+            if (inp=="doctor strange"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+            
+        }
+        function verify8(){
+            var inp = document.getElementById("q8").value;
+            var sp1 = document.getElementById("s8g");
+            var sp2 = document.getElementById("s8r");
+          
+            if (inp=="gamora"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify9(){
+            var inp = document.getElementById("q9").value;
+            var sp1 = document.getElementById("s9g");
+            var sp2 = document.getElementById("s9r");
+          
+            if (inp=="wolverine"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+        function verify10(){
+            var inp = document.getElementById("q10").value;
+            var sp1 = document.getElementById("s10g");
+            var sp2 = document.getElementById("s10r");
+          
+            if (inp=="spiderman"){
+                sp1.textContent="Correct";
+                sp2.textContent="";
+            } else {
+                sp1.textContent="";
+                sp2.textContent="Incorrect";
+            }
+        }
+    </script>
+
+	</footer>
+</html>
